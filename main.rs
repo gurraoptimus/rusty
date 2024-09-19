@@ -1,6 +1,6 @@
 use yew::prelude::*;
 
-struct Model{
+struct Model {
     value: i64
 }
 
