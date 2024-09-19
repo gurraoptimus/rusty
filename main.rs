@@ -5,7 +5,7 @@ struct Model{
 }
 
 #[function_component(App)]
-fn app() -> html{
+fn app() -> Html{
     let state = use_state(|| Model{
         value: 0
     });
