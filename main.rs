@@ -13,7 +13,7 @@ fn app() -> Html {
     let onclick = {
         let state = state.clone();
         
-        callback::from(move |_| {
+        Callback::from(move |_| {
             state.set(Model {
                  value: state.value + 1
             })
