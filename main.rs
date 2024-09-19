@@ -26,7 +26,7 @@ fn app() -> Html {
        <p>{ state.value }</p>
     </div>        
     }
-
+}
 fn main() {
     yew::start_app::<App>():
 }
