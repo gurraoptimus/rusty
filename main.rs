@@ -10,7 +10,7 @@ fn app() -> Html{
         value: 0
     });
 
-    let oneclick = {
+    let onclick = {
         let state = state.clone();
         
         Callback::from(move |_|{
