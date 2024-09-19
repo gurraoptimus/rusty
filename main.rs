@@ -6,7 +6,7 @@ struct Model{
 
 #[function_component(App)]
 fn app() -> Html{
-    let state = use_state(|| Model{
+    let state = use_state(||Model App {
         value: 0
     });
 
@@ -14,7 +14,7 @@ fn app() -> Html{
         let state = state.clone();
         
         Callback::from(move|_| {
-            state.set(Model {
+            state.set(Model App {
                 value: state.value + 1
             })
         })
