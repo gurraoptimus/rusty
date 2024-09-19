@@ -20,7 +20,7 @@ fn app() -> Html {
         }
     }
     
-    html!{
+    html! {
         <div>
          <button {onclick}>{ "+1" }</button>
        <p>{ state.value }</p>
