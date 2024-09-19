@@ -23,7 +23,7 @@ fn app() -> html{
     html!{
     <div>
         <button {oneclick}>{ "+1" }</button>
-        <p>{ state.value }
+        <p>{ state.value }</p>
     </div>        
     }
 }
