@@ -16,7 +16,7 @@ impl Component for CounterComponent {
         Self { count: 0 }
     }
 
-    fn update(&mut self, _ctx: &Context<Self>, msg: Self::Message) -> bool{
+    fn update(&mut self, _ctx: &Context<Self>, msg: Self::Message) -> bool {
         match msg {
             Msg::AddOne => {
                 self.count += 1;
