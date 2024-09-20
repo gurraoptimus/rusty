@@ -1,3 +1,3 @@
 # Rusty
-## [Web app Rust](/rusty/main.rs)
+## [Web app Rust](/rusty/src/main.rs)
 
