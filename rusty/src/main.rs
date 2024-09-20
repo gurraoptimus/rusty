@@ -21,22 +21,12 @@ fn app() -> Html {
     };
 
     html! {
- <!DOCTYPE html>
-<html>
- <head> 
- <meta charset="utf-8" />
- <title>Yew App</title>
- <link data-trunk rel="css" href="style.css"> 
- <body>
-    <div>
-     <button {onclick}>
-         { "+1" }
-     </button>
-     <p>{ state.value }</p>
- </div>
- </body>
-</head>
-</html>
+        <div>
+            <button {onclick}>
+                { "+1" }
+            </button>
+            <p>{ state.value }</p>
+        </div>
     }
 }
 
