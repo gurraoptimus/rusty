@@ -8,7 +8,7 @@ struct CounterComponent {
     count: i64,
 }
 
-impl Component for CounterComponent{
+impl Component for CounterComponent {
     type Message = Msg;
     type Properties = ();
 
