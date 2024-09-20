@@ -13,7 +13,7 @@ impl Component for CounterComponent{
     type Properties = ();
 
     fn create(_ctx: &Context<Self>) -> Self {
-        Self { count 0 }
+        Self { count: 0 }
     }
 
 }
