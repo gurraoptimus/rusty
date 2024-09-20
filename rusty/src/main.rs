@@ -16,6 +16,7 @@ impl Component for CounterComponent{
         Self { count: 0 }
     }
 
+    fn update()
 }
 
 
