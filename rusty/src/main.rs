@@ -1,6 +1,12 @@
 use yew::prelude::*;
 
-struct CounterC
+enum Msg {
+    AddOne
+}
+
+struct CounterComponent {
+    count: i64,
+}
 
 fn main() {
     println!("Hello, Rusty!");
