@@ -1,6 +1,6 @@
 use yew::prelude::*;
 
-struct Con
+struct CounterC
 
 fn main() {
     println!("Hello, Rusty!");
