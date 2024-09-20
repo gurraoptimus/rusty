@@ -16,7 +16,7 @@ impl Component for CounterComponent{
         Self { count: 0 }
     }
 
-    fn update(&mut self, _ctx: &CounterComponent)
+    fn update(&mut self, _ctx: &Context<Self>, msg: Self::Message) {}
 }
 
 
