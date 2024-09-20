@@ -1,7 +1,9 @@
 use yew::prelude::*;
-
+enum Msg {
+    AddOne
+}
 struct Model {
-    value: i64
+    value: i64,
 }
 
 #[function_component(App)]
