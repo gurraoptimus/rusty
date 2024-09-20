@@ -1,3 +1,7 @@
+use yew::prelude::*;
+
+struct Con
+
 fn main() {
-    println!("Hello, world!");
+    println!("Hello, Rusty!");
 }
