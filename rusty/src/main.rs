@@ -24,6 +24,8 @@ impl Component for CounterComponent {
             }
          }
     }
+
+    fn v
 }
 
 
