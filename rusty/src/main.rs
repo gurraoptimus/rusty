@@ -25,7 +25,15 @@ impl Component for CounterComponent {
          }
     }
 
-    fn v
+    fn view(&self, ctx: &Context<Self>) -> Html {
+        html! {
+            <div class="container">
+                <p>{ self.count }</p>
+                <button>{ "+1" }</button>
+            </div>
+        }
+
+    } 
 }
 
 
