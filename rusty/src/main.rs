@@ -25,7 +25,8 @@ impl Component for CounterComponent {
          }
     }
 
-    fn view(&self, ctx: &Context<Self>) -> Html {
+    fn view(&self, ctx: &Context<Self>) -> Html { 
+        let link: = ctx.link();
         html! {
             <div class="container">
                 <p>{ self.count }</p>
