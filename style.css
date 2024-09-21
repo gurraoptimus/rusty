@@ -1,28 +1,25 @@
-.container {
-    width: 100%;
-    height: 100%;
-    padding: 30px;
-    display: flex;
-    box-sizing: border-box;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
+body {
+    background-color:black;
 }
 
-.container p {
-    text-align: center;
-    font-size: 130px;
+div {
+    margin-top:35px;
+    text-align:center;
+    color:white;
+    font-family:Cubano;
 }
 
-.container button {
-    font-size: 70px;
-    background: black;
-    color: white;
-    border-radius: 5px;
-    border: none;
+p {
+    font-size:15em;
 }
 
-.container button:hover {
-    background: rgb(36, 36, 36);
-    cursor: pointer;
+button {
+    width:50%;
+    height:500px;
+    font-size:18em;
+    font-family:Cubano;
+    color:white;
+    text-align:center;
+    background-color:#555555;
+    border-width:8px;
 }
