@@ -32,7 +32,7 @@ impl Component for CounterComponent {
         html! {
             <div class="container">
                 <p>{ self.count }</p>
-                <button>{ "+1" }</button>
+                <button onc>{ "+1" }</button>
             </div>
         }
 
