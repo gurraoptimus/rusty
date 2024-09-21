@@ -8,8 +8,9 @@
 ## Table of Contents
 * [Installation](#install)
 * [Setup](#setup)
+* [Serve](#serve)
 
- ## install
+## install
 1. ### install rust
 ````
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
@@ -20,4 +21,10 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ````
 cargo install trunk
 rustup target add wasm32-unknown-unknown
+````
+3. ### Run Trunk
+## serve
+
+````
+trunk serve
 ````
