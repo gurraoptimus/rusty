@@ -13,14 +13,14 @@
 ````
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ````
-2. ### setup trunk
 ## setup
+2. ### setup trunk
 ````
 cargo install trunk
 rustup target add wasm32-unknown-unknown
 ````
-3. ### Run Trunk
 ## serve
+3. ### Run Trunk
 
 ````
 trunk serve
