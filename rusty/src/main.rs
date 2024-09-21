@@ -1,3 +1,5 @@
+use std::thread::Scope;
+
 use yew::prelude::*;
 
 enum Msg {
@@ -26,7 +28,7 @@ impl Component for CounterComponent {
     }
 
     fn view(&self, ctx: &Context<Self>) -> Html { 
-        let link: = ctx.link();
+        let link: &Scope<CounterComponent> = ctx.link();
         html! {
             <div class="container">
                 <p>{ self.count }</p>
