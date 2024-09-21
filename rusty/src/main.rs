@@ -5,7 +5,7 @@ enum Msg {
 }
 
 struct CounterComponent {
-    count: i64
+    count: i64,
 }
 
 impl Component for CounterComponent {
@@ -26,7 +26,7 @@ impl Component for CounterComponent {
     }
 
     fn view(&self, ctx: &Context<Self>) -> Html { 
-        let link: &Scope<CounterComponent> = ctx.link();
+        let link:  = ctx.link();
         html! {
             <div class="container">
                 <p>{ self.count }</p>
