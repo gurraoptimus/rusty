@@ -1,4 +1,4 @@
 # Rusty
-## [Web app Rusty](src/main.rs)
+## [Web app Rusty Rust](src/main.rs)
 
 
