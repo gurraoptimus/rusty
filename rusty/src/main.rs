@@ -1,4 +1,4 @@
-use std::thread::Scope;
+use std::thread::{yield_now, Scope};
 
 use yew::prelude::*;
 
@@ -32,14 +32,12 @@ impl Component for CounterComponent {
         html! {
             <div class="container">
                 <p>{ self.count }</p>
-                <button onc>{ "+1" }</button>
+                <button onclick={link.callback(|_| Msg::AddOne)}>{ "+1" }</button>
             </div>
         }
 
     } 
 }
-
-
 fn main() {
-    println!("Hello, Rusty!");
+    yew::start_app::<CounterComponent>();
 }
