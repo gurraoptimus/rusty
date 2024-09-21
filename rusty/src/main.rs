@@ -1,5 +1,3 @@
-use std::thread::{yield_now, Scope};
-
 use yew::prelude::*;
 
 enum Msg {
@@ -7,7 +5,7 @@ enum Msg {
 }
 
 struct CounterComponent {
-    count: i64,
+    count: i64
 }
 
 impl Component for CounterComponent {
